@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.musicalapp.FirstAlbumActivity">
-    <TextView
-        style="@style/LinerTheme"
-        android:background="@color/blue400"
-        android:text="@string/fifthType1" />
-    <TextView
-        style="@style/LinerTheme"
-        android:background="@color/blue300"
-        android:text="@string/fifthType2" />
-    <TextView
-        style="@style/LinerTheme"
-        android:background="@color/blue400"
-        android:text="@string/fifthType3" />
 
-    <TextView
-        style="@style/LinerTheme"
-        android:background="@color/blue300"
-        android:text="@string/fifthType4" />
-    <TextView
-        style="@style/LinerTheme"
-        android:background="@color/blue400"
-        android:text="@string/fifthType5" />
-    <Button
-        android:id="@+id/NextPage"
-        style="@style/LinerTheme"
-        android:text="@string/nextAlbum" />
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/colorBlue"
+            android:text="@string/description" />
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/blue400"
+            android:text="@string/fifthType1" />
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/blue300"
+            android:text="@string/fifthType2" />
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/blue400"
+            android:text="@string/fifthType3" />
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/blue300"
+            android:text="@string/fifthType4" />
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="@color/blue400"
+            android:text="@string/fifthType5" />
+
+        <Button
+            android:id="@+id/NextPage"
+            style="@style/LinerTheme"
+            android:text="@string/nextAlbum" />
+    </LinearLayout>
+</ScrollView>

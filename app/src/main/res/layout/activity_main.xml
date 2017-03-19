@@ -21,18 +21,18 @@
             android:id="@+id/fourthAlbum"
             style="@style/LinerTheme"
             android:background="@color/Yellow"
-            android:text="@string/secondType" />
+            android:text="@string/fourthType" />
         <TextView
             android:id="@+id/secondAlbum"
             style="@style/LinerTheme"
             android:background="@color/Lime"
-            android:text="@string/thirdType" />
+            android:text="@string/secondType" />
 
         <TextView
             android:id="@+id/thirdAlbum"
             style="@style/LinerTheme"
             android:background="@color/Amber700"
-            android:text="@string/fourthType" />
+            android:text="@string/thirdType" />
         <TextView
             android:id="@+id/fifthAlbum"
             style="@style/LinerTheme"

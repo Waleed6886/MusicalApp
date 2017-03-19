@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MusicalApp</string>
+
+    <string name="description">Songs list</string>
+
     <string name="firstType">Jazz</string>
     <string name="firstType1">Jazz Song</string>
     <string name="firstType2">Jazz Song</string>

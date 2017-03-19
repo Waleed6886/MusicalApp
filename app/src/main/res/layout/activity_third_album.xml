@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.musicalapp.FirstAlbumActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/LinerTheme"
+            android:background="#9E9D24"
+            android:text="@string/description" />
     <TextView
         style="@style/LinerTheme"
         android:background="@color/lime400"
@@ -32,3 +41,4 @@
         style="@style/LinerTheme"
         android:text="@string/nextAlbum" />
 </LinearLayout>
+    </ScrollView>
