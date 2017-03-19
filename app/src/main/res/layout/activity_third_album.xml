@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalapp.FirstAlbumActivity">
+    <TextView
+        style="@style/LinerTheme"
+        android:background="@color/lime400"
+        android:text="@string/thirdType1" />
+    <TextView
+        style="@style/LinerTheme"
+        android:background="@color/lime300"
+        android:text="@string/thirdType2" />
+    <TextView
+        style="@style/LinerTheme"
+        android:background="@color/lime400"
+        android:text="@string/thirdType3" />
+
+    <TextView
+        style="@style/LinerTheme"
+        android:background="@color/lime300"
+        android:text="@string/thirdType4" />
+    <TextView
+        style="@style/LinerTheme"
+        android:background="@color/lime400"
+        android:text="@string/thirdType5" />
+    <Button
+        android:id="@+id/NextPage"
+        style="@style/LinerTheme"
+        android:text="@string/nextAlbum" />
+</LinearLayout>

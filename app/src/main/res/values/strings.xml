@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MusicalApp</string>
+    <string name="firstType">Jazz</string>
+    <string name="firstType1">Jazz Song</string>
+    <string name="firstType2">Jazz Song</string>
+    <string name="firstType3">Jazz Song</string>
+    <string name="firstType4">Jazz Song</string>
+    <string name="firstType5">Jazz Song</string>
+
+    <string name="secondType">Opera</string>
+    <string name="secondType1">Opera Song</string>
+    <string name="secondType2">Opera Song</string>
+    <string name="secondType3">Opera Song</string>
+    <string name="secondType4">Opera Song</string>
+    <string name="secondType5">Opera Song</string>
+
+    <string name="thirdType">hip hop</string>
+    <string name="thirdType1">hip hop Song</string>
+    <string name="thirdType2">hip hop Song</string>
+    <string name="thirdType3">hip hop Song</string>
+    <string name="thirdType4">hip hop Song</string>
+    <string name="thirdType5">hip hop Song</string>
+
+    <string name="fourthType">Rap</string>
+    <string name="fourthType1">RapSong</string>
+    <string name="fourthType2">Rap Song</string>
+    <string name="fourthType3">Rap Song</string>
+    <string name="fourthType4">Rap Song</string>
+    <string name="fourthType5">Rap Song</string>
+
+    <string name="fifthType">Disco</string>
+    <string name="fifthType1">Disco Song</string>
+    <string name="fifthType2">Disco Song</string>
+    <string name="fifthType3">Disco Song</string>
+    <string name="fifthType4">Disco Song</string>
+    <string name="fifthType5">Disco Song</string>
+
+    <string name="nextAlbum">Next Album</string>
+
+</resources>
